@@ -1,0 +1,6 @@
+canvas {
+    width:100px;
+    height: 300px;
+    object-fit: contain;
+    border: solid;
+  }
