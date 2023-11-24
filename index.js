@@ -45,7 +45,6 @@ function touchmove(e){
 }
 
 function static() {
- //   let line_end = canvas.height; // Assuming canvas is a global variable
 
     function drawLine() {
         if (line_end_y >150){line_end_y--}
@@ -60,11 +59,11 @@ function static() {
       console.log(line_end_y);
 
       if (line_end_y > 150 || line_end_x > 50 || line_end_y < 150 || line_end_x < 50) {
-        setTimeout(drawLine, 1); // Adjust the timeout as needed (in milliseconds)
+        setTimeout(drawLine, 1); // timeout
       }
     }
 
-    drawLine(); // Start the initial drawing
+    drawLine();
   }
 
 
